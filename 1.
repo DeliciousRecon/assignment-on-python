@@ -1,0 +1,5 @@
+1. numList = [10, 15, 25, 62, 76, 12, 17, 13]
+2. i=0
+3. while i < len(numList)-1:
+4. print(numList[i], "+", numList[i+1], "=", numList[i]+numList[i+1])
+5. i = i + 1
