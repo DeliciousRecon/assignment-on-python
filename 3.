@@ -1,0 +1,22 @@
+1. numList = [10, 15, 25, 62, 76, 12, 17, 10]	
+2. 
+3.    def splitevenodd(x):
+4.       evenlist = []
+5.       oddlist = []
+6.           for i in x:
+7.               if (i % 2 == 0):
+8.        evenlist.append(i)
+9.      else:
+10.                oddlist.append(i)
+11.            print("Even lists:", evenlist)
+12.            print("Odd lists:", oddlist)
+13.    def valcheck():
+14. 
+15.      if numList[0] == numList[len(numList)-1]:
+16.             return True
+17.      else:
+18.             return False
+19. 
+20. print ("Check equivalence of values of
+21. first and last number: ", valcheck())
+22. splitevenodd(numList
