@@ -1,0 +1,5 @@
+1. text = "I want to hear from you. What do you think of this basic python excercise?"
+2. substr = "you"
+3. count =text.count(substr)
+4. 
+5. print("Count of substring= ", count
